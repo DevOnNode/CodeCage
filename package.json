@@ -1,0 +1,22 @@
+{
+  "name": "codecage",
+  "version": "1.0.0",
+  "description": "Платформа для безопасного запуска, песочницы и анализа выполнения кода на разных языках программирования с использованием Docker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "info": "node src/cli/index.js info",
+    "help": "node src/cli/index.js help"
+  },
+  "keywords": [],
+  "author": "CodeCage",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "dockerode": "^4.0.7",
+    "ora": "^8.2.0",
+    "pidusage": "^4.0.1",
+    "tar": "^7.4.3"
+  }
+}

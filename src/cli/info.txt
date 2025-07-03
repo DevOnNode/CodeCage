@@ -1,0 +1,24 @@
+CodeCage — CLI for safe code execution in Docker containers
+
+Available commands:
+
+  run
+    --lang <language>      Programming language (python, js, cpp, java, go, csharp, ruby, php)
+    --file <path>          Path to code file
+    --collect-files        Save all result files from the container
+    --cpus <cpus>          CPU limit (e.g., 1.5)
+    --cpuset <cpus>        List of CPU cores (e.g., 0,1)
+    --memory <memory>      Memory limit (e.g., 128m)
+    --memory-swap <memory> Memory+swap limit (e.g., 256m)
+    --timeout <seconds>    Maximum execution time (seconds)
+    --no-network           Disable network in the container
+    --pids-limit <limit>   Process limit
+    --read-only            Read-only rootfs
+
+  info
+    Show this help message
+
+  help
+    Standard help for commands (from commander)
+
+See docs/COMMANDS.en.md for full CLI documentation. 
